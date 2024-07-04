@@ -10,7 +10,7 @@ class Object3D:
         self.color_faces = [(pg.Color('dodgerblue'), face) for face in self.faces]
         self.movement_flag, self.draw_vertices = True, True
         self.label = ''
-        self.light = np.array([0, 0, 1])  # Light direction
+        self.light = np.array([0, 0, -1])  # Light direction
 
 
     def draw(self):
