@@ -10,7 +10,7 @@ class SoftwareRend:
         self.screen = pg.display.set_mode(self.RES)
         self.clock = pg.time.Clock()
         # self.running = True
-        self.FPS = 60
+        self.FPS = 180
         self.H_WIDTH, self.H_HEIGHT = self.WIDTH // 2, self.HEIGHT // 2
         self.create_objects()
 
